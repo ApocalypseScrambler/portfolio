@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/globales';
+@import 'base/mixins';
+
+@import 'layout/navbar';
+
+//Presentación
+.fotoPerfil {
+  width: 35rem;
+  height: 35rem;
+  border: $borde-negro;
+  box-shadow: 5px 5px 10px 1px #484848;
+}
+
+.presentacion {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.textoH1 {
+  font-size: 5rem;
+}
+
+.textoH2 {
+  font-size: 3rem;
+}
+
+@include desktop {
+  .presentacion {
+    flex-direction: column;
+  }
+
+  .textoPresentacion {
+    text-align: center;
+  }
+}
+
+@include moviles {
+  .fotoPerfil {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .textoH1 {
+    font-size: 4rem;
+  }
+
+  .textoH2 {
+    font-size: 2rem;
+  }
+}
+
+.sobreMiDetalle {
+  border: $borde-negro;
+  box-shadow: 5px 5px 10px 1px #484848;
+  text-align: center;
+}
+
+.sobreMi {
+  margin: 15rem 5rem;
+}
+
+.sobreMiDetalle {
+  margin: 0rem 10rem;
+}
+
+.proyectos {
+  margin: 20rem 10rem;  
+}
+
+.titulo {
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.parrafo {
+  font-size: large;
+  margin: 0 10rem;
+}
+
+@include desktop {
+  .parrafo {
+    margin: 0 7rem;
+  }
+
+  .sobreMi {
+    margin: 15rem 3rem 7.5rem 3rem;;
+  } 
+
+  .sobreMiDetalle {
+    margin: 0rem 7rem;
+  }
+}
+
+@include moviles {
+  .parrafo {
+    margin: 0 1rem;
+  }
+
+  .sobreMiDetalle {
+    margin: 0rem 3rem;
+  }
+}
+
+.subtitulo {
+  text-decoration: underline;
+  font-size: large;
+}
+
+.detalleProyectos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+@include desktop {
+  .detalleProyectos {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .detalleParrafo {
+    margin-top: 1rem;
+  }
+}
+
+.fotoProyecto {
+  width: 50rem;
+  height: 30rem;
+}
+
+.Habilidades {
+  margin-top: 10rem;
+}
+
+.detalleHabilidades {
+  text-align: center;
+}
+
+//Contacto
+.Contacto {
+  margin: 15rem 0;
+}
+
+.detalleMail {
+  font-size: large;
+  text-align: center;
+  margin: 2rem;
+}
+
+.detalleLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem;
+}
+
+.logoInvertido {
+  width: 3rem;
+  height: 3rem;
+  filter: invert(100%);
+}

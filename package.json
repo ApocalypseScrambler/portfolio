@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "name": "portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApocalypseScrambler/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApocalypseScrambler/portfolio/issues"
+  },
+  "homepage": "https://github.com/ApocalypseScrambler/portfolio#readme"
+}

@@ -1,0 +1,83 @@
+/* Barra de navegación */
+.NavChica {
+    display: none;
+  }
+  
+  .nav-bg {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }
+  
+  .navegacion {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0 1rem;
+    list-style: none;
+    padding: 0 1rem;
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 400;
+  
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  
+  .Nombre {
+    font-size: 3rem;
+  }
+  
+  .NombreChico {
+    font-size: 2rem;
+  }
+  
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  @include tablet {
+    .NavGrande {
+      display: none;
+    }
+  
+    .NavChica {
+      display: block;
+      padding: 0;
+    }
+  }
+  
+  .logoConNombre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  
+  .logoConNombreLateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offcanvas-header {
+    justify-content: center;
+  }
+  
+  .logoBarraLateral {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 0;
+  }
+  
+  .offcanvas.offcanvas-end {
+    width: 24rem;
+  }
