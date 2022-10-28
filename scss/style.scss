@@ -10,7 +10,7 @@
 .fotoPerfil {
   width: 35rem;
   height: 35rem;
-  border: $borde-negro;
+  border: $borde-blanco;
   box-shadow: 5px 5px 10px 1px #484848;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .sobreMiDetalle {
-  border: $borde-negro;
+  border: $borde-blanco;
   box-shadow: 5px 5px 10px 1px #484848;
   text-align: center;
 }
@@ -71,6 +71,10 @@
 
 .proyectos {
   margin: 20rem 10rem;  
+}
+
+.detalleProyectos {
+  border: $borde-blanco;
 }
 
 .titulo {
@@ -121,6 +125,10 @@
   margin-top: 5rem;
 }
 
+.fotoProyecto {
+  border: $borde-blanco;
+}
+
 @include desktop {
   .detalleProyectos {
     flex-direction: column;
@@ -143,6 +151,7 @@
 
 .detalleHabilidades {
   text-align: center;
+  border: $borde-blanco;
 }
 
 //Contacto
@@ -164,8 +173,11 @@
   margin: 2rem;
 }
 
-.logoInvertido {
+.logoChico {
   width: 3rem;
   height: 3rem;
+}
+
+.logoInvertido {
   filter: invert(100%);
 }

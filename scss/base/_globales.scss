@@ -29,5 +29,10 @@ a {
 
 body {
     font-family: $fuente-principal;
+    background-image: url(/img/Programador.jpg);
+    color: #fff;
+    background-size: cover;
+    font-weight: 700;
+    text-shadow: 1rem 1rem 7px #000;
 }
 

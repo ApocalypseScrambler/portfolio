@@ -339,6 +339,11 @@ a {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url(/img/Programador.jpg);
+  color: #fff;
+  background-size: cover;
+  font-weight: 700;
+  text-shadow: 1rem 1rem 7px #000;
 }
 
 /* Barra de navegación */
@@ -423,7 +428,7 @@ body {
 .fotoPerfil {
   width: 35rem;
   height: 35rem;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   box-shadow: 5px 5px 10px 1px #484848;
 }
 
@@ -464,7 +469,7 @@ body {
   }
 }
 .sobreMiDetalle {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   box-shadow: 5px 5px 10px 1px #484848;
   text-align: center;
 }
@@ -479,6 +484,10 @@ body {
 
 .proyectos {
   margin: 20rem 10rem;
+}
+
+.detalleProyectos {
+  border: 1px solid #fff;
 }
 
 .titulo {
@@ -524,6 +533,10 @@ body {
   margin-top: 5rem;
 }
 
+.fotoProyecto {
+  border: 1px solid #fff;
+}
+
 @media (max-width: 992px) {
   .detalleProyectos {
     flex-direction: column;
@@ -544,6 +557,7 @@ body {
 
 .detalleHabilidades {
   text-align: center;
+  border: 1px solid #fff;
 }
 
 .Contacto {
@@ -564,9 +578,12 @@ body {
   margin: 2rem;
 }
 
-.logoInvertido {
+.logoChico {
   width: 3rem;
   height: 3rem;
+}
+
+.logoInvertido {
   filter: invert(100%);
 }
 
