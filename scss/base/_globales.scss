@@ -7,8 +7,6 @@ html {
 
 html,
 body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -29,10 +27,17 @@ a {
 
 body {
     font-family: $fuente-principal;
-    background-image: url(/img/Programador.jpg);
-    color: #fff;
-    background-size: cover;
+    color: #000;
     font-weight: 700;
-    text-shadow: 1rem 1rem 7px #000;
 }
+
+// Background
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
 

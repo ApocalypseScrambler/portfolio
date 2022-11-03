@@ -55,12 +55,6 @@
   }
 }
 
-.sobreMiDetalle {
-  border: $borde-blanco;
-  box-shadow: 5px 5px 10px 1px #484848;
-  text-align: center;
-}
-
 .sobreMi {
   margin: 15rem 5rem;
 }
@@ -70,7 +64,7 @@
 }
 
 .proyectos {
-  margin: 20rem 10rem;  
+  margin: 20rem 10rem;
 }
 
 .detalleProyectos {
@@ -94,8 +88,9 @@
   }
 
   .sobreMi {
-    margin: 15rem 3rem 7.5rem 3rem;;
-  } 
+    margin: 15rem 3rem 7.5rem 3rem;
+    ;
+  }
 
   .sobreMiDetalle {
     margin: 0rem 7rem;

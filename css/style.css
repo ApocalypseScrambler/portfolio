@@ -317,8 +317,6 @@ html {
 
 html,
 body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -339,11 +337,17 @@ a {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(/img/Programador.jpg);
-  color: #fff;
-  background-size: cover;
+  color: #000;
   font-weight: 700;
-  text-shadow: 1rem 1rem 7px #000;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /* Barra de navegación */
@@ -468,12 +472,6 @@ body {
     font-size: 2rem;
   }
 }
-.sobreMiDetalle {
-  border: 1px solid #fff;
-  box-shadow: 5px 5px 10px 1px #484848;
-  text-align: center;
-}
-
 .sobreMi {
   margin: 15rem 5rem;
 }
