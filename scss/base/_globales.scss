@@ -9,6 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 *,
@@ -28,16 +29,7 @@ a {
 body {
     font-family: $fuente-principal;
     color: #000;
-    font-weight: 700;
+    font-weight: 700;    
+    background: rgb(52,185,179);
+    background: linear-gradient(90deg, rgba(52,185,179,1) 0%, rgba(131,175,139,1) 40%, rgba(118,215,136,1) 70%, rgba(11,215,210,1) 100%);
 }
-
-// Background
-.background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-  }
-

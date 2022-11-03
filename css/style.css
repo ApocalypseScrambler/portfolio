@@ -319,6 +319,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 *,
@@ -339,15 +340,8 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 700;
-}
-
-.background {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+  background: rgb(52, 185, 179);
+  background: linear-gradient(90deg, rgb(52, 185, 179) 0%, rgb(131, 175, 139) 40%, rgb(118, 215, 136) 70%, rgb(11, 215, 210) 100%);
 }
 
 /* Barra de navegación */
@@ -559,7 +553,7 @@ body {
 }
 
 .Contacto {
-  margin: 15rem 0;
+  margin: 15rem 0 5rem 0;
 }
 
 .detalleMail {
